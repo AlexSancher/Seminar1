@@ -78,3 +78,81 @@
 
 
 
+
+
+// Домашка СЕМИНАР 1
+
+
+
+
+// 2 Программа, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+// System.Console.WriteLine();
+
+// string[] txtNumber = { "первое", "второе" };
+// int[] number = new int[2];
+
+// for (int i = 0; i < 2; i++)
+// {
+//     System.Console.WriteLine($"Введите {txtNumber[i]} число:");
+//     string writeNumber = Console.ReadLine();
+//     number[i] = Convert.ToInt32(writeNumber);
+// }
+// int max = number.Max();
+// int min = number.Min();
+
+// if (max == min) System.Console.WriteLine("Введённые числа равны");
+// else 
+// {
+//     System.Console.WriteLine($"Большее число {max}, меньшее число {min}");
+// }
+// System.Console.WriteLine();
+
+
+// 4 Программа, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+
+//int[] Numbers = { 44, 5, 78 };
+
+//for (int i = 0; i < 3; i++)
+// {
+//    int max = Numbers[0];
+    
+//   if (Numbers[i] > max)
+//    {
+//         max = Numbers[i];
+//         System.Console.WriteLine();
+//        System.Console.WriteLine($"Максимальное число {max}");
+//     }
+// }
+// System.Console.WriteLine();
+
+
+// 6 Программа, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// Console.Clear();
+// System.Console.WriteLine();
+// System.Console.Write("Введите число: ");
+// string writeNumber = Console.ReadLine();
+// int number = Convert.ToInt32(writeNumber);
+// string result = $"Число {number} является чётным";
+
+// if (number % 2 != 0) result = result.Replace("является", "не является");
+
+// System.Console.WriteLine(result);
+// System.Console.WriteLine();
+
+// 8 Программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// Console.Clear();
+
+// System.Console.Write("Введите число:   ");
+// string txtN = Console.ReadLine();
+// int endNum = Convert.ToInt32(txtN);
+// int num = 0;
+// System.Console.WriteLine($"Чётные числа из диапазона от 1 до {endNum}:");
+// while (num < endNum)
+// {
+//     num++;
+//     if (num % 2 == 0) System.Console.Write($"{num} ");
+// }
+// System.Console.WriteLine(); System.Console.WriteLine();
