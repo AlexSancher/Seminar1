@@ -12,6 +12,9 @@
 // }
 // SnowNumber();
 
+
+
+
 // int NumberWithoutSecDig(int Number){
 //     int NewNumber = 0;
 //     NewNumber = Number / 100 * 10 + Number % 10;
@@ -20,6 +23,8 @@
 // int Number = new Random().Next(100, 1000);
 // int a  = NumberWithoutSecDig(Number);
 // Console.WriteLine(a + " " + Number);
+
+
 
 
 // void MultiNum(int a, int b){
@@ -37,5 +42,20 @@
 // MultiNum(num1, num2);
 
 
-дз
+// дз
+
+// 1
+
+// Напишите программу, которая принимает на вход трехзначное число и на выходе
+// показывают вторую цифру этого  числа. 
+
+// Console.Clear();
+// System.Console.WriteLine();
+// int number = new Random().Next(100, 1000);
+
+// System.Console.WriteLine($"Второй цифрой числа {number} является {number / 10 % 10} ");
+
+// System.Console.WriteLine();
+
+// 2
 
