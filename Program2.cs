@@ -71,8 +71,8 @@
 // int Number = new Random().Next(1, 1400);
 // System.Console.WriteLine();
 // System.Console.WriteLine($"Дано число: {Number}");
-
-// if (Number / 100 > 0) System.Console.WriteLine($"Третьей цифрой числа {Number} является цифра {Number / 100 % 10}");
+// while(Number > 999){Number/= 10;}
+// if (Number / 100 > 0) System.Console.WriteLine($"Третьей цифрой числа {Number} является цифра {Number% 10}");
 // else System.Console.WriteLine($"У числа {Number} нет третьей цифры");
 
 // System.Console.WriteLine();
@@ -80,6 +80,7 @@
 
 
 // 3
+
 
 
 // Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
