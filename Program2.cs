@@ -10,5 +10,4 @@ void SnowNumber(){
         Console.WriteLine(secondNum);
     }
 }
-
 SnowNumber();
