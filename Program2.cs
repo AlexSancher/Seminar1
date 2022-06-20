@@ -57,5 +57,44 @@
 
 // System.Console.WriteLine();
 
+
+
+
 // 2
 
+// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет
+
+
+// Console.Clear();
+// System.Console.WriteLine();
+
+// int Number = new Random().Next(1, 1400);
+// System.Console.WriteLine();
+// System.Console.WriteLine($"Дано число: {Number}");
+
+// if (Number / 100 > 0) System.Console.WriteLine($"Третьей цифрой числа {Number} является цифра {Number / 100 % 10}");
+// else System.Console.WriteLine($"У числа {Number} нет третьей цифры");
+
+// System.Console.WriteLine();
+
+
+
+// 3
+
+
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
+
+
+// Console.Clear();
+// System.Console.WriteLine();
+
+// int dayNumber = new Random().Next(1, 8);
+// string[] Days = { "понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье" };
+// string txtResult = "";
+
+// if (dayNumber > 5) txtResult = $". Ура! Это выходной день!";
+// else txtResult = $", рабочий день.";
+
+// System.Console.WriteLine();
+// System.Console.WriteLine($"{dayNumber}-й день недели - это {Days[dayNumber - 1]}{txtResult}");
+// System.Console.WriteLine();
