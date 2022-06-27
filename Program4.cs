@@ -106,24 +106,66 @@
 
 // #25
 
-Console.Clear();
-System.Console.WriteLine();
+// Console.Clear();
+// System.Console.WriteLine();
 
-System.Console.Write("Введите число:   ");
-string writeA = Console.ReadLine();
-int A = Convert.ToInt32(writeA);
+// System.Console.Write("Введите число:   ");
+// string writeA = Console.ReadLine();
+// int A = Convert.ToInt32(writeA);
+// int GetNumbersSum (int A);
+// {
+//     int number = 1;
+//     int sum = 0;
+//     for (int i = 0; i < A; i++)
+//     {
+//         sum = sum + number;
+//         number++;
+//     }
+//     return sum;
+// }
 
-int GetNumbersSum(int A)
-{
-    int number = 1;
-    int sum = 0;
-    for (int i = 0; i < A; i++)
-    {
-        sum = sum + number;
-        number++;
-    }
-    return sum;
-}
+// int NumbersSum = GetNumbersSum(A);
+// System.Console.WriteLine($"Сумма чисел от 1 до {A} составляет {NumbersSum}");
 
-int NumbersSum = GetNumbersSum(A);
-System.Console.WriteLine($"Сумма чисел от 1 до {A} составляет {NumbersSum}");
+
+// Console.Clear();
+// System.Console.WriteLine();
+
+// int number = 2;
+// int exponent = 10;
+// int count = 1;
+// int result = number;
+
+// while (count < exponent)
+// {
+//     result = result * number;
+//     count++;
+// }
+
+// System.Console.WriteLine($"{number} ^ {exponent} = {result}");
+// System.Console.WriteLine();
+
+
+// #27--------------------------------------------------------------------
+
+// Console.Clear();
+// System.Console.WriteLine();
+
+// int number = new Random().Next(1, 100000);
+// int sumDigit = 0;
+// System.Console.Write($"Сумма цифр числа {number} равна ");
+
+// while (number > 0)
+// {
+//     int digit = number % 10;
+//     sumDigit = sumDigit + digit;
+//     number = number / 10;
+// }
+
+// System.Console.WriteLine(sumDigit);
+// System.Console.WriteLine();
+
+
+// #29----------------------------------------------
+
+
