@@ -30,16 +30,30 @@
 
 
 
-int countnumbers (int num){
-    int count = 0;
-    while(num > 0)
+// int countnumbers (int num){
+//     int count = 0;
+//     while(num > 0)
 
+// {
+//     num = num / 10;
+//     count++;
+// }
+
+// return(count);
+// }
+// int numbers = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(countnumbers(numbers));
+
+
+int miltiplayToNum(int num)
 {
-    num = num / 10;
-    count++;
+    int miltiplay = 1;
+    for (int i = 1; i <= num; i++)
+    {
+        miltiplay *= i;
+    }
+    return miltiplay;
 }
 
-return(count);
-}
-int numbers = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(countnumbers(numbers));
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(miltiplayToNum (number));
