@@ -55,5 +55,5 @@ int miltiplayToNum(int num)
     return miltiplay;
 }
 
-int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(miltiplayToNum (number));
+int numbers = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(miltiplayToNum (numbers));
