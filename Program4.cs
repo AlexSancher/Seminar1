@@ -18,12 +18,28 @@
 // Программа принимает на вход число и выдает количество цифр в числе
 
 
-int numbers = 5532;
-int count = 0;
+// int numbers = 5532;
+// int count = 0;
 
-while(numbers > 0)
+// while(numbers > 0)
+// {
+//     numbers = numbers / 10;
+//     count++;
+// }
+// Console.WriteLine(count);
+
+
+
+int countnumbers (int num){
+    int count = 0;
+    while(num > 0)
+
 {
-    numbers = numbers / 10;
+    num = num / 10;
     count++;
 }
-Console.WriteLine(count);
+
+return(count);
+}
+int numbers = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(countnumbers(numbers));
